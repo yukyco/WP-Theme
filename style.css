@@ -1,19 +1,26 @@
 /*
 Theme Name: Yukyco's wordpress first theme by Dotinstall
-Theme URI: http://yukycohamabe.ciao.jp/template/
+Theme URI: http://yukycohamabe.ciao.jp/tech_blog/
 Author: Yukiko Hamabe
-Author URI: http://yukycohamabe.ciao.jp/template/
+Author URI: http://yukycohamabe.ciao.jp/tech_blog/
 Description: Yukyco's Design 
 Version: 1.0
 */
 
+* {
+	margin: 0px;
+}
+
 body {
-	font-size : 14px; 
+	font-size : 16px; 
 	font-family: Arial, Verdana;
+	background: url(http://yukycohamabe.ciao.jp/contest/img/pp1-1.jpg) repeat top left ;
 }
 
 a {
 	text-decoration: none;
+	padding: 10px;
+	color: #696969;
 }
 
 p {
@@ -23,49 +30,52 @@ p {
 }
 
 .container {
-	width: 1300px;
+	width: 1200px;
 	margin: 0 auto;
 	overflow: hidden;
 }
 
 #header {
-	
+	width: 1200px;
+	height: 180px;
 }
 
     h1 {
 	   font-weight:  bold;
-	   font-size: 18px;
-	   padding: 15px 0;
+	   font-size: 50px;
+	   text-shadow: 5px 5px 2px  #fffaf0;
+	   padding: 35px 5px ;
        }
 
     .menu {
 	   background: #f39800;
-	   margin-bottom: 30px;
-	   font-size: 12px;
-       list-style: none;
-       overflow: hidden;
+	   height: 50px;
+	   font-size: 18px;
+     list-style: none;
+     overflow: hidden;
 	   padding: 0;
        }
 
       .menu > li {
 	      float: left;
-          width: 150px;
+        width: 150px;
 	      text-align: center;
           }
 
       .menu a {
-	      padding: 10px 0;
-	      color: #fff;
-          display: block;
+	   padding: 10px 0;
+	   height: 50px;
+	   color: #fff;
+           display: block;
           }
 
        .menu a:hover {
-	       background: #ffc35c;
+	   background: #ffc35c;
            }
 
 #posts {
 	float: left;
-	width: 770px;
+	width: 750px;
     }
 
     .post {
@@ -77,13 +87,14 @@ p {
 	}
 	
 	    .post-header h2 {
+			padding: 20px;
 		    font-size: 16px;
 		    font-weight: bold;
 	    }
 	
 	   .post-meta {
 		    font-size: 12px;
-		    padding: 7px 0;
+		    padding: 7px 30px;
             color : #555;
 	    }
 	
@@ -93,6 +104,7 @@ p {
 	
     	.post-image {
 	    	float: left;
+			padding: 10px 30px;
 		    width: 200px;
         }
 
@@ -109,37 +121,46 @@ p {
     }
 
    .prev {
-    	float: left;
-	    width : 200px;
+	 font-size: 17px; 
+     float: left;
+	 padding: 20px;
+	 width : 200px;
    }
 
    .next {
-	    float: right;
-	    width : 200px;
+	font-size: 17px; 
+	float: right;
+	width : 200px;
         text-align: right;
     }
     
 #sidebar {
 	float: right;
-	width: 450px;
+	width: 400px;
 	}
 	
 	.widget {
-		margin-bottom: 25px;
+	    margin-bottom: 25px;
 	}
 	
 	    .widget h3 {
 		   font-weight: bold;
+		   padding: 30px;
 		   padding-bottom: 7px;
 	    }
 	    
 	    .widget li {
 		   line-height: 1.8;
+		   list-style: none;
 	    }
 
 #footer {
-	padding:  15px 0;
-	font-size: 12px;
-	color: #aaa;
+	width: 1200px;
+	padding:  45px 30px;
+	background: #fffaf0;
+	height: 70px;
+	opacity: 0.6;
+	font-size: 20px;
+	color: #333;
 	border-top: 1px solid #ccc;
     }
