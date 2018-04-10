@@ -10,5 +10,6 @@
    <body>
 	   <div id="header" class="container">
 		   <h1><a href="<?php echo home_url('/') ?>"><?php bloginfo('name'); ?></a></h1>
+		   <p class="blog_title" style="font-size:1em; line-height:1.6; padding-top:0;"><?php bloginfo('description'); ?></p>
 		   <?php wp_nav_menu(); ?>
 	   </div><!-- /header-->
