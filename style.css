@@ -1,5 +1,5 @@
 /*
-Theme Name: Simplest WP Theme
+Theme Name: ThemeSimplest
 Theme URI: http://yukycohamabe.ciao.jp/tech_blog/
 Author: Yukiko Hamabe
 Author URI: http://yukycohamabe.ciao.jp/tech_blog/
@@ -37,7 +37,7 @@ p {
 
 #header {
 	width: 1200px;
-	height: 180px;
+	height: 220px;
 }
 
     h1 {
@@ -49,10 +49,10 @@ p {
 
     .menu {
 	   background: #f39800;
-	   height: 50px;
+	   height: 150px;
 	   font-size: 18px;
-     list-style: none;
-     overflow: hidden;
+           list-style: none;
+           overflow: hidden;
 	   padding: 0;
        }
 
@@ -64,7 +64,7 @@ p {
 
       .menu a {
 	   padding: 10px 0;
-	   height: 50px;
+	   height: 150px;
 	   color: #fff;
            display: block;
           }
