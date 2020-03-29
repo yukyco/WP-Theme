@@ -1,8 +1,8 @@
 /*
 Theme Name: ThemeSimplest
-Theme URI: http://yukycohamabe.ciao.jp/tech_blog/
+Theme URI: https://good-inspiration.com/sample/
 Author: Yukiko Hamabe
-Author URI: http://yukycohamabe.ciao.jp/tech_blog/
+Author URI: https://good-inspiration.com/Themify/
 Description: Yukyco's Design 
 Version: 1.0
 */
@@ -14,7 +14,7 @@ Version: 1.0
 body {
 	font-size : 16px; 
 	font-family: Arial, Verdana;
-	background: url(http://yukycohamabe.ciao.jp/contest/img/pp1-1.jpg) repeat top left ;
+	background: url(https://good-inspiration.com/img/pp1-1.jpg) repeat top left ;
 }
 
 a {
